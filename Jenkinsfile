@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage ('Clean Install Stahnge') {
+        stage ('Clean Install Stahne') {
 
             steps {
                   sh 'mvn clean install'
