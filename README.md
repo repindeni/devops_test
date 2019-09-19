@@ -47,4 +47,4 @@ In case of server start failure the ability of rollback to previous successful v
 # Additional task (bonus)
 Implement Deployment to 2 servers with load balancer in front of them to avoid downtime during servers update process.
 
-4
+5
