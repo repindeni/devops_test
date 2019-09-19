@@ -10,14 +10,14 @@
 	</parent>
 	<groupId>com.gamepoint.example</groupId>
 	<artifactId>example</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT-${timestamp}</version>
 	<name>example</name>
 	<description>Example Spring Boot project with spring actuator</description>
 
 	<properties>
-		<java.version>1.8</java.version>
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyy_MM_dd_HH_mm</maven.build.timestamp.format>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
